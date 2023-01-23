@@ -1,0 +1,64 @@
+.container{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.avatar__img{
+    height: 70px;
+    width: 70px;
+}
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+img:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px grey;
+}
+.image__container{
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 20px;
+   
+}
+.userName{
+    height: 40px;
+    width: 300px;
+    outline: none;
+    border: 2px solid rgb(223, 19, 155);
+}
+.userName:focus{
+    box-shadow: 0 0 10px rgb(223, 19, 155);
+    border-color: rgb(223, 19, 155);
+}
+.container button{
+    height: 50px;
+    width: 140px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.container .option__button{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.back__button{
+    background-color: orange;
+    color: #fff;
+}
+.enter__button{
+    background-color: green;
+    color: #fff;
+}
+.terms__condition{
+    color: #fff;
+}
+span{
+    color: grey;
+}

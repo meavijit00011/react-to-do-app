@@ -1,0 +1,66 @@
+.task__input__container{
+    display: flex;
+    width: fit-content;
+    margin: 40px auto;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.task__input__container input{
+    height: 40px;
+    width: 300px;
+    padding: 0 10px;
+    outline: none;
+    border: none;
+    background: #5D6D7E;
+    border-radius: 30px;
+    color: #fff;
+}
+.task__input__container ::-webkit-input-placeholder{
+    color: rgb(156, 152, 152);
+}
+.task__input__container .calender__img img{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.task__input__container button{
+    height: 35px;
+    width: 100px;
+    background-color: orange;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+}
+.calendar__container{
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+}
+.calendar__container button{
+    background-color: #fff;
+    color: #222;
+    font-weight: 500;
+}
+.react-calendar { 
+    width: 400px;
+    max-width: 100%;
+    background-color: #fff;
+    color: #222;
+    border-radius: 8px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.125em;
+   }
+   .react-calendar__navigation button {
+    color: #6f48eb;
+    min-width: 44px;
+    background: none;
+    font-size: 16px;
+    margin-top: 8px;
+   }
+   

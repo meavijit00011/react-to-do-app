@@ -1,0 +1,77 @@
+.task__list__container {
+  width: 320px;
+  margin: auto;
+}
+.task__list__container button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+.task__list__container span {
+  font-size: 14px;
+  color: #909497;
+}
+.all__tasks {
+  margin-top: 15px;
+  overflow: scroll;
+  height: 400px
+}
+.all__tasks::-webkit-scrollbar {
+  display: none;
+}
+.all__tasks .task {
+  padding: 0 10px;
+  height: 70px;
+  width: 300px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 15px;
+  background-color: #1C2833;
+  position: relative;
+}
+.all__tasks .check__task {
+  height: 15px;
+  margin-right: 8px;
+  border-radius: 50%;
+  
+}
+.task .date{
+   font-size: 12px;
+   
+}
+.date p{
+  padding: 5px 0px 0px 5px;
+  color: rgb(221, 215, 215);
+}
+.task .task__description{
+ display: flex;
+ align-items: center;
+ width: 100%;
+ height: 20px;
+}
+
+.check__task:checked+p{
+  text-decoration: line-through;
+}
+.all__tasks p{
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.delete__img{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+ top:15px;
+ right: 10px;
+}
+.active{
+  color: rgb(10, 8, 8);
+  background-color: rgb(173, 250, 142);
+  font-weight: 600;
+}
